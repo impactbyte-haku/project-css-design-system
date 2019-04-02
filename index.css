@@ -23,7 +23,7 @@ h1 {
 }
 
 .design-systems {
-  width: 200px;
+  width: 300px;
   padding: 0;
 }
 
@@ -31,16 +31,24 @@ h1 {
   list-style: none;
   padding: 10px 20px;
   margin: 10px;
+  border: 2px solid rgb(255, 215, 0);
   border-radius: 10px;
-  background-color: wheat;
+  background-color: rgb(255, 250, 240);
+}
+
+.design-systems li span:nth-child(1) {
+  width: 30px;
+  margin-right: 10px;
+  text-align: center;
 }
 
 .design-systems li img {
-  margin-right: 10px;
+  height: 30px;
 }
 
 .design-systems li a {
-  color: darkslategray;
+  text-align: left;
+  color: rgb(47, 79, 79);
   font-weight: bold;
   display: flex;
   align-items: center;
