@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.header-group {
+  background: linear-gradient(hsla(0, 100%, 0%, 0.5), hsla(0, 100%, 0%, 0.5)),
+    url('assets/images/cover.jpg') no-repeat center;
+  min-height: 60vh;
+}
+
+.header-group .mdl-layout__header,
+.header-group .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+
+.content {
+  width: 100%;
+  min-height: 100vh;
+  max-width: 640px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mdl-typography--light {
+  color: #fff;
+}
+
+.mdl-button {
+  margin: 10px;
+}
+
+.margin-large {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sample-card-wide.mdl-card {
+  width: 512px;
+}
+
+.sample-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('assets/images/welcome.jpg') center / cover;
+}
+
+.sample-card-wide > .mdl-card__menu {
+  color: #fff;
+}
