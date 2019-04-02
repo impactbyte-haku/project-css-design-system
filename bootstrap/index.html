@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- HEAD -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Bootstrap Example</title>
+  </head>
+
+  <!-- BODY -->
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">
+        <img
+          src="assets/images/bootstrap-solid.svg"
+          width="30"
+          height="30"
+          class="d-inline-block align-top"
+          alt="Bootstrap Logo"
+        />
+        Bootstrap
+      </a>
+    </nav>
+
+    <!-- CONTAINER -->
+    <main class="container">
+      <!-- ROW OF JUMBOTRON -->
+      <section class="row justify-content-md-center mt-3">
+        <section class="col">
+          <!-- JUMBOTRON -->
+          <div class="jumbotron">
+            <h1 class="display-4">Hello, Bootstrap!</h1>
+            <p class="lead">
+              This is a simple website using Bootstrap.
+            </p>
+            <hr class="my-4" />
+            <p>
+              It uses provided classes to ease our development.
+            </p>
+            <a
+              class="btn btn-primary btn-lg"
+              role="button"
+              href="https://getbootstrap.com"
+            >
+              Learn more
+            </a>
+          </div>
+          <!-- /JUMBOTRON -->
+        </section>
+      </section>
+
+      <!-- ROW OF BREADCRUMB -->
+      <section class="row justify-content-md-center">
+        <section class="col">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Library</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+          </nav>
+        </section>
+      </section>
+
+      <!-- ROW OF BUTTONS -->
+      <section class="row justify-content-md-center my-3">
+        <section class="col-8">
+          <div class="btn-group-sm" role="group" aria-label="Button Groups">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-light">Light</button>
+            <button type="button" class="btn btn-dark">Dark</button>
+            <button type="button" class="btn btn-link">Link</button>
+            <button type="button" class="btn btn-custom">Custom</button>
+          </div>
+        </section>
+      </section>
+      <!-- /ROW OF BUTTONS -->
+
+      <!-- ROW OF CARDS -->
+      <section class="row justify-content-md-center my-5">
+        <section class="col-10">
+          <div class="card-group">
+            <div class="card">
+              <img
+                src="assets/images/placeholder.svg"
+                alt="Placeholder"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="assets/images/placeholder.svg"
+                alt="Placeholder"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This card has supporting text below as a natural lead-in to
+                  additional content.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="assets/images/placeholder.svg"
+                alt="Placeholder"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This card has even longer
+                  content than the first to show that equal height action.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <!-- /ROW OF CARDS -->
+
+      <!-- ROW OF FORM -->
+      <section class="row justify-content-md-center my-5">
+        <section class="col-6">
+          <form>
+            <h1>Registration Form</h1>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="inputEmail4"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="inputPassword4"
+                  placeholder="Password"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Address</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputAddress"
+                placeholder="1234 Main St"
+              />
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Address 2</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputAddress2"
+                placeholder="Apartment, studio, or floor"
+              />
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity" />
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputState">Country</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>Indonesia</option>
+                  <option>Malaysia</option>
+                  <option>Singapore</option>
+                  <option>Australia</option>
+                  <option>Japan</option>
+                  <option>South Korea</option>
+                </select>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputZip">Zip</label>
+                <input type="text" class="form-control" id="inputZip" />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="gridCheck"
+                />
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Register</button>
+          </form>
+        </section>
+      </section>
+    </main>
+    <!-- /CONTAINER -->
+
+    <footer class="row justify-content-md-center bg-dark py-5">
+      <section class="col text-center text-light">
+        <small>Copyright &copy; 2019 Web Developer</small>
+      </section>
+    </footer>
+  </body>
+</html>
