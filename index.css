@@ -48,8 +48,13 @@ h1 {
 
 .design-systems li a {
   text-align: left;
-  color: rgb(47, 79, 79);
+  color: hsl(180, 25%, 25%);
   font-weight: bold;
   display: flex;
   align-items: center;
+}
+
+.footer {
+  text-align: center;
+  color: hsla(180, 25%, 25%, 0.5);
 }
